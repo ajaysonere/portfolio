@@ -9,7 +9,7 @@ const Navbar = () => {
     const [showNevigation, setShowNevigation] = useState(false);
     return (
         <nav>
-            <div className="container navbar__container">
+            <div className="nav__container navbar__container">
                 <div className="logo">
                     <h1>AJAY.DEV</h1>
                 </div>

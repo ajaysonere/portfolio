@@ -14,6 +14,7 @@
     --color-text: #A7A7A7 ;
     --container-width-lg : 80%;
     --container-width-md : 90;
+    --container-width-lg-home : 60%;
     --transition: all 0.5s 90%;
 }
 
@@ -25,11 +26,18 @@ body{
     background: var(--color-secondary);
 }
 
-.container{
+
+.nav__container{
     width: var(--container-width-lg);
     max-width: 1920px;
     margin: 0 auto;
     /* border: 1px solid red; */
+}
+
+.container {
+    width: var(--container-width-lg-home);
+    max-width: auto;
+    margin: 0 auto;
 }
 
 h1 , h2 , h3 , h4 {

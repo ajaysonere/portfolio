@@ -28,6 +28,15 @@ nav {
 .logo {
     width: 10rem;
     display: block;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: rgb(34, 169, 223);
+}
+
+.logo h1 {
+    font-size: 3rem;
 }
 
 .navbar__links {
@@ -41,7 +50,78 @@ nav {
     transition: var(--transition);
 }
 .navbar__li a:hover{
-    color: rgba(110, 162, 218, 0.7);
+   color: rgb(34, 169, 223);
+}
+
+
+/* Hero Section */
+
+.hero__container {
+    width: 100vw;
+    height: 60vh;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* .hero__left {
+    text-align: center;
+} */
+
+.hero__left h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    display: inline;
+    /* border: 1px solid red; */
+}
+
+.hero__left img {
+    display: inline;
+    width: 3rem;
+    height: 3rem;
+}
+
+.hero__left p {
+    margin-top: 2rem;
+}
+
+.hero__socials {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.hero__first-icon {
+    font-size: 2.5rem;
+    color: rgb(48, 45, 45);
+}
+
+.hero__first-icon:hover{
+   color: rgb(34, 169, 223);
+}
+
+.hero__second-icon {
+    font-size: 2.2rem;
+    color: rgb(48, 45, 45);;
+    margin-left: 1.5rem;
+}
+
+.hero__second-icon:hover{
+    color: rgb(34, 169, 223);
+}
+
+
+.hero__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__right img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
 }
 
 
@@ -53,6 +133,10 @@ nav {
         background: transparent;
         font-size: 1.1rem;
         cursor: pointer;
+    }
+
+    .logo h1{
+       font-size: 2rem;
     }
 
     .navbar__links {
@@ -88,4 +172,48 @@ nav {
         display: none;
     }
 
+    .hero__container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__right{
+        margin-top: 8rem;
+    }
+
+    /* .hero__right img {
+        width: 18rem;
+        height: 18rem;
+    } */
+
+    .hero__left {
+        margin-top: 4rem;
+        width: 100%;
+        text-align: center;
+    }
+    .hero__left h2{
+        font-size: 2rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo h1 {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .hero__right img {
+        width: 15rem;
+        height: 15rem;
+    
+    }
+
+    .hero__right {
+        margin-top: 15rem;
+    }
 }
