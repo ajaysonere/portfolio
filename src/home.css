@@ -59,7 +59,7 @@ nav {
 .hero__container {
     width: 100vw;
     height: 60vh;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
     grid-template-columns:  1fr 1fr;
     justify-content: space-between;
@@ -123,6 +123,46 @@ nav {
     height: 20rem;
     border-radius: 50%;
 }
+
+
+/* Tech stack section */
+
+.techstack__container{
+   height: 30vh;
+   border: 1px solid blue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.tech__left h3{
+    font-size: 1.5rem;
+}
+
+.tech__right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tech__right img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media query */
@@ -197,6 +237,12 @@ nav {
         font-size: 2rem;
 
     }
+
+    .tech__right img{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.8rem;
+}
 
 }
 
