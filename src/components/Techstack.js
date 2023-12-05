@@ -14,7 +14,7 @@ const Techstack = () => {
       <section>
         <div className="container techstack__container">
           <div className="tech__left">
-            <h3> Tech Stack |</h3>
+            <h3> Tech Stack </h3>
           </div>
           <div className="tech__right">
             <img src={cplusplus} alt="react-icons" />
