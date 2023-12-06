@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import './home.css';
 import Techstack from "./components/Techstack";
+import About from "./components/About";
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
           <Navbar />
           <Hero />
           <Techstack />
+          <About />
        </>
     );
 };

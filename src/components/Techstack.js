@@ -17,15 +17,15 @@ const Techstack = () => {
             <h3> Tech Stack </h3>
           </div>
           <div className="tech__right">
-            <img src={cplusplus} alt="react-icons" />
-            <img src={js} alt="react-icons" />
-            <img src={react} alt="react-icons" />
-            <img src={nodejs} alt="react-icons" />
-            <img src={express} alt="react-icons" />
-            <img src={mongodb} alt="react-icons" />
-            <img src={sql} alt="react-icons" />
-            <img src={mysql} alt="react-icons" />
-            <img src={aws} alt="react-icons" />
+            <img src={cplusplus} alt="react-icons" className="animation" />
+            <img src={js} alt="react-icons" className="animation" />
+            <img src={react} alt="react-icons" className="animation" />
+            <img src={nodejs} alt="react-icons" className="animation" />
+            <img src={express} alt="react-icons" className="animation" />
+            <img src={mongodb} alt="react-icons" className="animation" />
+            <img src={sql} alt="react-icons" className="animation" />
+            <img src={mysql} alt="react-icons" className="animation" />
+            <img src={aws} alt="react-icons" className="animation" />
           </div>
         </div>
       </section>
