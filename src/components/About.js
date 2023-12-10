@@ -2,13 +2,13 @@ import about from '../assests/about.png';
 
 const About = () => {
     return (
-      <section id='about'>
+      <section id='about' style={{"background" : "#fff"}}>
         <div className="container about__container">
           <div className="about__left">
             <img src={about} alt="about"></img>
           </div>
           <div className="about__right">
-            <h3>ABOUT ME </h3>
+            <h3 className='section__header'>ABOUT ME </h3>
             <h4>A dedicated Full-Stack Developer based in Indore, India 📍</h4>
             <p>
               As a Junior Full-Stack Developer , I possess an impressive arsenal

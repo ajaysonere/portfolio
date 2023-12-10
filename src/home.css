@@ -46,7 +46,7 @@ nav {
 
 .navbar__li a {
     font-weight: 600;
-    color: var(--color-secondary);
+    color: black;
     transition: var(--transition);
 }
 .navbar__li a:hover{
@@ -59,17 +59,13 @@ nav {
 .hero__container {
     width: 100vw;
     height: 70vh;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
     grid-template-columns:  1fr 1fr;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-
-/* .hero__left {
-    text-align: center;
-} */
 
 .hero__left h2 {
     font-size: 3rem;
@@ -93,6 +89,7 @@ nav {
     margin-top: 2rem;
     cursor: pointer;
 }
+
 .hero__first-icon {
     font-size: 2.5rem;
     color: rgb(48, 45, 45);
@@ -136,7 +133,7 @@ nav {
 .techstack__container{
    height: 30vh;
    width: 100%;
-   /* border: 1px solid blue; */
+   border: 1px solid blue;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -187,12 +184,13 @@ nav {
    width: 20rem;
 }
 
-.about__right h3{
+.section__header {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     color: rgb(34, 169, 223);
     font-weight: 700;
 }
+
 
 .about__right h4 {
     font-size: 1.2rem;
@@ -200,6 +198,102 @@ nav {
 }
 
 
+/* Project */
+
+.project__container {
+    border: 1px solid red;
+    margin-top: 10rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+.project-content h2{
+    margin: 2rem  0;
+}
+
+.project {
+    /* border: 1px solid green; */
+    margin-top: 5rem;
+    max-height: 28rem;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+    overflow: hidden;
+    padding: 1.5rem;
+    border-radius: 1.7rem;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(216, 205, 205, 0.7);
+    padding-bottom: 2rem;
+}
+
+.project__left {
+    border-radius: 1.7rem;
+    box-shadow: 0px 0px 15px rgba(216, 205, 205, 1);
+    overflow: hidden;
+}
+
+
+/* Add this to your CSS file or styled-components */
+.large-image-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.large-image {
+    width: 100%;
+    height: auto;
+    transition: transform 10s ease-in-out;
+}
+
+.large-image-container:hover .large-image {
+    transform: translateY(-100%);
+}
+
+
+
+.project__right {
+    width: 100%;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.project__right h3 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.project__right p {
+    margin: 2.5rem 0;
+    font-weight: 700;
+    color: gray;
+}
+
+.stack span{
+   padding: 10px 20px ;
+   margin: 0.2rem;
+   box-shadow: 0 0 10px rgba(216, 205, 205, 0.4);
+   font-size: 1rem;
+   font-weight: 700;
+}
+
+.links {
+    margin-top: 2rem;
+}
+
+.links a{
+   color: gray;
+   font-size: 1.2rem;
+   margin: 1rem;
+   font-weight: 700;
+   transition: var(--transition);
+}
+
+.links a:hover {
+    color: rgb(34, 169, 223);
+}
 
 
 

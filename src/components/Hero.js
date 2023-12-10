@@ -1,5 +1,4 @@
 import hand from '../assests/hand.png';
-import hero from '../assests/hero.jpg';
 import { VscGithubAlt } from "react-icons/vsc";
 import { LiaLinkedin } from "react-icons/lia";
 import { Link } from 'react-router-dom';
@@ -24,7 +23,6 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='hero__right'>
-                    {/* <img src={hero} alt='developer'></img> */}
                 </div>
             </div>
         </section>
