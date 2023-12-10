@@ -59,7 +59,7 @@ nav {
 .hero__container {
     width: 100vw;
     height: 70vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns:  1fr 1fr;
     justify-content: space-between;
@@ -77,6 +77,7 @@ nav {
     display: inline;
     /* border: 1px solid red; */
 }
+
 
 .hero__left img {
     display: inline;
@@ -113,16 +114,20 @@ nav {
 
 
 .hero__right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero__right img{
-    width: 20rem;
+    margin-inline: auto;
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url('./assests/hero.jpg'); 
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 20rem;
-    border-radius: 50%;
-    border: 2px solid black;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 20rem;
+    z-index: 90;
 }
 
 
@@ -131,7 +136,7 @@ nav {
 .techstack__container{
    height: 30vh;
    width: 100%;
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -143,7 +148,7 @@ nav {
 }
 
 .tech__right {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -157,7 +162,7 @@ nav {
     height: 3.5rem;
     margin: 1.2rem;
     cursor: pointer;
-    transition: all 0.5ms ease-in;
+    transition: var(--transition);
 }
 
 .animation:hover {
@@ -266,9 +271,6 @@ nav {
         align-items: center;
     }
 
-    .hero__right {
-        margin-top: 3rem;
-    }
 
     .hero__left {
         margin-top: 4rem;
@@ -357,12 +359,26 @@ nav {
         justify-content: center;
     }
     
-    .hero__right img {
-        width: 15rem;
-        height: 15rem;
+    .hero__right {
+        width: 17rem;
+        height: 17rem;
     }
+
+    .hero__left h2{
+       font-size: 1.5rem;
+    }
+
+    .hero__left img {
+        width: 2rem;
+        height: 2rem;
+    }
+    
     .techstack__container {
         display: block;
+    }
+
+    .tech__left h3{
+        font-size: 1.5rem;
     }
 
     .tech__right {

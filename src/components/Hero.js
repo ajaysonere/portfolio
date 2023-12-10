@@ -9,7 +9,7 @@ const Hero = () => {
         <section>
             <div className="container hero__container">
                 <div className="hero__left">
-                    <h2> Full-Stack <br/> Developer </h2>
+                    <h2> Full-Stack Javascript <br/> Developer </h2>
                      <img src={hand} alt='hello gesture'></img>
                     <p>
                         Hi, I'm Ajay Sonere . A passionate Full-Stack Javascript  Developer <br/> based in Indore, India . 📍
@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='hero__right'>
-                    <img src={hero} alt='developer'></img>
+                    {/* <img src={hero} alt='developer'></img> */}
                 </div>
             </div>
         </section>
