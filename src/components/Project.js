@@ -1,4 +1,5 @@
 import firstProject from '../assests/firstProject.png';
+import projectFour from '../assests/projectFour.png';
 import { VscGithub } from "react-icons/vsc";
 import { SiLivewire } from "react-icons/si";
 
@@ -11,7 +12,7 @@ const Project = () => {
             <h2>Each project is a unique piece of development 🧩</h2>
           </div>
           <div className="project__flex">
-            <div className="project ">
+            <div className="project project-even ">
               <div className="project__left">
                 <a href="htt" target="_blank" className="large-image-container">
                   <img
@@ -31,7 +32,7 @@ const Project = () => {
                 </p>
                 <div className="stack">
                   <span>React</span>
-                  <span>Node </span>
+                  <span>CSS </span>
                   {/* <span>Express</span>
                   <span>Mongodb</span> */}
                 </div>
@@ -45,16 +46,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="project ">
-              <div className="project__left">
-                <a href="htt" target="_blank" className="large-image-container">
-                  <img
-                    className="large-image"
-                    src={firstProject}
-                    alt="first project"
-                  ></img>
-                </a>
-              </div>
+            <div className="project project-reverse">
               <div className="project__right">
                 <h3>Tour and Travel 🚗</h3>
                 <p>
@@ -65,9 +57,9 @@ const Project = () => {
                 </p>
                 <div className="stack">
                   <span>React</span>
-                  <span>Node </span>
-                  <span>Express</span>
-                  <span>Mongodb</span>
+                  <span> CSS </span>
+                  {/* <span>Express</span>
+                  <span>Mongodb</span> */}
                 </div>
                 <div className="links">
                   <a href="https:">
@@ -77,6 +69,15 @@ const Project = () => {
                     <SiLivewire /> Live demo
                   </a>
                 </div>
+              </div>
+              <div className="project__left">
+                <a href="htt" target="_blank" className="large-image-container">
+                  <img
+                    className="large-image"
+                    src={projectFour}
+                    alt="first project"
+                  ></img>
+                </a>
               </div>
             </div>
           </div>
