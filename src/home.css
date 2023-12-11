@@ -269,7 +269,7 @@ nav {
 }
 
 .project__right h3 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-transform: uppercase;
 }
 
@@ -346,6 +346,13 @@ nav {
 .contact-data a ,
 .contact-data p {
    color: gray;
+}
+
+.contact-data a:hover{
+    color: rgb(34, 169, 223);
+}
+.contact-data p:hover{
+    color: rgb(34, 169, 223);
 }
 
 /* Footer */

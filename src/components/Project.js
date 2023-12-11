@@ -28,10 +28,9 @@ const Project = () => {
               <div className="project__right">
                 <h3>Tour and Travel 🚗</h3>
                 <p>
-                  A car rental website is an online platform that allows users
-                  to rent cars for personal or business use. The website
-                  provides an interface for searching, comparing, and reserving
-                  cars.
+                  A Tour and Travel website where you can schedule you tickets
+                  and enjoy the wonderfull views of nature and make your life
+                  memoriable for your future life.
                 </p>
                 <div className="stack">
                   <span>React</span>
@@ -98,10 +97,9 @@ const Project = () => {
               <div className="project__right">
                 <h3>Music Web music 🎧 </h3>
                 <p>
-                  A car rental website is an online platform that allows users
-                  to rent cars for personal or business use. The website
-                  provides an interface for searching, comparing, and reserving
-                  cars.
+                  A music web app built using React and CSS. It has a library
+                  component where all the libraries will be stored, and you can
+                  navigate through the songs and play the song seamlessly
                 </p>
                 <div className="stack">
                   <span>React</span>
@@ -121,11 +119,9 @@ const Project = () => {
             </div>
             <div className="project project-reverse project-last">
               <div className="project__right">
-                <h3>GYM BUDDY 🖋️</h3>
+                <h3>TASK MANAGER 🖋️</h3>
                 <p>
-                  A gym website is a comprehensive resource for fitness
-                  information, class schedules, membership options, and tools to
-                  help users achieve their fitness goals.
+                  A Full-Stack Task Manager web app that can schedule the tasks according to your need . and tasks cab be categried into completed , pending and in-process section . task will be automatically fetch from Database.
                 </p>
                 <div className="stack">
                   <span>React</span>
