@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 
 const Contact = () => {
     return (
-        <div style={{"background" : "#fff"}}>
+        <section style={{"background" : "#fff"}}>
           <div className="container contact__container">
               <div className="contact-content">
                    <h3 className="section__header">CONTACT</h3>
@@ -26,7 +26,7 @@ const Contact = () => {
                     </div>
               </div>
           </div>
-        </div>
+        </section>
     );
 };
 
