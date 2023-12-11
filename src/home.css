@@ -308,6 +308,45 @@ nav {
 }
 
 
+/* Contact */
+
+.contact__container {
+    height: 50vh;
+    padding-top: 10rem;
+}
+
+.contact-content h2{
+   margin-top: 2rem;
+}
+
+.contact-links {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.contact-icons {
+    font-size: 4rem;
+    color: rgb(34, 169, 223);
+    box-shadow: 0px 0px 10px rgba(216, 205, 205, 0.7);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.contact-data h4{
+    margin-bottom: 0.5rem;
+}
+
+.contact-data a ,
+.contact-data p {
+   color: gray;
+}
 
 
 
