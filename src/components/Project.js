@@ -17,7 +17,12 @@ const Project = () => {
           <div className="project__flex">
             <div className="project project-even ">
               <div className="project__left">
-                <a href="htt" target="_blank" className="large-image-container">
+                <a
+                  href="https://tour-and-travel-frontend.vercel.app/home"
+                  target="_blank"
+                  className="large-image-container"
+                  rel="noreferrer"
+                >
                   <img
                     className="large-image"
                     src={firstProject}
@@ -42,7 +47,11 @@ const Project = () => {
                   <a href="https://github.com/ajaysonere/ToursAndTravels">
                     <VscGithub /> Code
                   </a>
-                  <a href="htt" target="_blank">
+                  <a
+                    href="https://tour-and-travel-frontend.vercel.app/home"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <SiLivewire /> Live demo
                   </a>
                 </div>
@@ -86,7 +95,12 @@ const Project = () => {
             </div>
             <div className="project project-even ">
               <div className="project__left">
-                <a href="htt" target="_blank" className="large-image-container">
+                <a
+                  href="https://ajaysonere.github.io/react-music-app/"
+                  target="_blank"
+                  className="large-image-container"
+                  rel="noreferrer"
+                >
                   <img
                     className="large-image"
                     src={projectThree}
@@ -111,7 +125,10 @@ const Project = () => {
                   <a href="https://github.com/ajaysonere/react-music-app">
                     <VscGithub /> Code
                   </a>
-                  <a href="htt" target="_blank">
+                  <a
+                    href="https://ajaysonere.github.io/react-music-app/"
+                    target="_blank" rel='noreferrer'
+                  >
                     <SiLivewire /> Live demo
                   </a>
                 </div>
@@ -121,7 +138,10 @@ const Project = () => {
               <div className="project__right">
                 <h3>TASK MANAGER 🖋️</h3>
                 <p>
-                  A Full-Stack Task Manager web app that can schedule the tasks according to your need . and tasks cab be categried into completed , pending and in-process section . task will be automatically fetch from Database.
+                  A Full-Stack Task Manager web app that can schedule the tasks
+                  according to your need . and tasks cab be categried into
+                  completed , pending and in-process section . task will be
+                  automatically fetch from Database.
                 </p>
                 <div className="stack">
                   <span>React</span>
