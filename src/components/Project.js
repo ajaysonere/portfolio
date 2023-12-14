@@ -134,14 +134,11 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="project project-reverse project-last">
-              <div className="project__right">
+            <div className="project project-reverse project-last" >
+              <div className="project__right" style={{height:"fit-content"}}>
                 <h3>TASK MANAGER 🖋️</h3>
                 <p>
-                  A Full-Stack Task Manager web app that can schedule the tasks
-                  according to your need . and tasks cab be categried into
-                  completed , pending and in-process section . task will be
-                  automatically fetch from Database.
+                  A Full-stack web app that can acts as todo's for you. you can schedule your whole day on it . and it have filters for better accessibility.
                 </p>
                 <div className="stack">
                   <span>React</span>

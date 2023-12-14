@@ -2,7 +2,7 @@ import about from '../assests/about.png';
 
 const About = () => {
     return (
-      <section id='about' style={{"background" : "#fff"}}>
+      <section id= "about"className='about'  style={{"background" : "#fff"}}>
         <div className="container about__container">
           <div className="about__left">
             <img src={about} alt="about"></img>

@@ -331,14 +331,21 @@ nav {
     color: rgb(34, 169, 223);
     box-shadow: 0px 0px 10px rgba(216, 205, 205, 0.7);
     border-radius: 50%;
+}
+
+.contact-ic {
     padding: 1rem;
 }
 
 .contact-link{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
+    /* border: 1px solid green; */
 }
+
+
 .contact-data h4{
     margin-bottom: 0.5rem;
 }
@@ -389,6 +396,10 @@ nav {
 /* Media query */
 
 @media screen and (max-width : 1024px ) {
+     *{
+        text-align: center;
+     }
+
     .toggle-btn {
         display: inline-block;
         background: transparent;
@@ -441,6 +452,7 @@ nav {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-top: 5rem;
     }
 
 
@@ -494,6 +506,49 @@ nav {
         line-height: 1.7rem;
     }
 
+
+    .project-content h2{
+        line-height: 2.7rem;
+        font-size: 1.5rem;
+    }
+
+
+    .project {
+        width: 100%;
+        height: 90vh;
+        grid-template-columns: 1fr;
+    }
+
+    .contact__container {
+        height: 100vh;
+    }
+
+    .contact-content h2 {
+        line-height: 3rem;
+    }
+
+    .contact-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-links{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .contact-link {
+        flex-direction: column;
+    }
+     .footer__container {
+         display: flex;
+         flex-direction: column-reverse;
+         justify-content: center;
+         align-items: center;
+         gap: 1rem;
+     }
+
+
 }
 
 @media screen and (max-width: 1408px ) {
@@ -529,6 +584,7 @@ nav {
     .hero__container {
         text-align: center;
         justify-content: center;
+        margin-top: 4rem;
     }
     
     .hero__right {
@@ -577,4 +633,39 @@ nav {
         width: 15rem;
         height: 15rem;
     }
+
+    .project__container {
+        text-align: center;
+    }
+
+    .project-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact__container {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .contact-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-content h2{
+        line-height: 2.7rem;
+        font-size: 1.5rem;
+    }
+
+
+    .project {
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 1fr;
+    }
+
+    .contact__container {
+        height: 100vh;
+    }
+
+
 }
