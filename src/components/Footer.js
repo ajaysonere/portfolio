@@ -4,7 +4,7 @@ import { LiaLinkedin } from "react-icons/lia";
 
 const Footer = () => {
   return (
-    <footer style={{background:"#2D2E32" , color:"#fff"}}>
+    <footer  style={{background:"#2D2E32" , color:"#fff"}}>
       <div className="container  footer__container">
           <div className="footer-content">
             <h3>Copyright © 2023. All rights are reserved</h3>

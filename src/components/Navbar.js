@@ -1,5 +1,4 @@
 import {links} from '../data';
-import { Link } from 'react-router-dom';
 import { FaBars } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 import { useState } from 'react'; 
@@ -18,7 +17,7 @@ const Navbar = () => {
                         links.map(({name , path},index) => {
                             return (
                                 <li key={index} className='navbar__li'>
-                                    <Link to={path} onClick={()=>setShowNevigation(prev => !prev)} >{name} </Link>
+                                    <a href={path} onClick={()=>setShowNevigation(prev => !prev)}  >{name} </a>
                                 </li>
                             )
                         })

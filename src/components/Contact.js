@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 
 const Contact = () => {
     return (
-      <section style={{ background: "#fff" }}>
+      <section id="contact"  style={{ background: "#fff" }}>
         <div className="container contact__container">
           <div className="contact-content">
             <h3 className="section__header">CONTACT</h3>

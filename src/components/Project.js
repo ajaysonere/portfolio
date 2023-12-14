@@ -8,7 +8,7 @@ import { SiLivewire } from "react-icons/si";
 
 const Project = () => {
     return (
-      <section>
+      <section id='projects'>
         <div className="container project__container">
           <div className="project-content">
             <h3 className="section__header">PORTFOLIO</h3>
