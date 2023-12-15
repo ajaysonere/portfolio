@@ -8,7 +8,7 @@ import { SiLivewire } from "react-icons/si";
 
 const Project = () => {
     return (
-      <section id='projects'>
+      <section id="projects">
         <div className="container project__container">
           <div className="project-content">
             <h3 className="section__header">PORTFOLIO</h3>
@@ -73,7 +73,7 @@ const Project = () => {
                   <a href="https://github.com/ajaysonere/Gym-webapp">
                     <VscGithub /> Code
                   </a>
-                  <a href="htt" target="_blank">
+                  <a href="https://gym-webapp-eta.vercel.app/" target="_blank" rel='noreferrer'>
                     <SiLivewire /> Live demo
                   </a>
                 </div>
@@ -127,18 +127,21 @@ const Project = () => {
                   </a>
                   <a
                     href="https://ajaysonere.github.io/react-music-app/"
-                    target="_blank" rel='noreferrer'
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <SiLivewire /> Live demo
                   </a>
                 </div>
               </div>
             </div>
-            <div className="project project-reverse project-last" >
-              <div className="project__right" style={{height:"fit-content"}}>
+            <div className="project project-reverse project-last">
+              <div className="project__right" style={{ height: "fit-content" }}>
                 <h3>TASK MANAGER 🖋️</h3>
                 <p>
-                  A Full-stack web app that can acts as todo's for you. you can schedule your whole day on it . and it have filters for better accessibility.
+                  A Full-stack web app that can acts as todo's for you. you can
+                  schedule your whole day on it . and it have filters for better
+                  accessibility.
                 </p>
                 <div className="stack">
                   <span>React</span>
